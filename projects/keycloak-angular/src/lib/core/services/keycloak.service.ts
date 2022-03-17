@@ -11,7 +11,7 @@ import { HttpHeaders } from '@angular/common/http';
 
 import { Subject, from } from 'rxjs';
 import { map } from 'rxjs/operators';
-import Keycloak from 'keycloak-js';
+import * as Keycloak from 'keycloak-js';
 
 import {
   ExcludedUrl,
